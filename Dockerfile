@@ -29,7 +29,7 @@ ADD ./gen-key.sh /root/gen-key.sh
 # Install davfs2
 RUN apt-get install davfs2 -y
 
-EXPOSE 22 8080
+EXPOSE 22
 
 ADD ./start.sh /root/start.sh
 
